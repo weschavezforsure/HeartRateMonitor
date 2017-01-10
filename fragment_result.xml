@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/result_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_title_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <TextView
+        android:id="@+id/result_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_timestamp_label"
+        style="?android:listSeparatorTextViewStyle"/>
+
+</LinearLayout>
